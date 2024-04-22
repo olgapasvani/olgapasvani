@@ -1,5 +1,14 @@
 ### Hi there 👋, I am Olga Pasvani
 
+I am currently pursuing my studies in Informatics and Telecommunications at the prestigious National and Kapodistrian University of Athens.
+
+My expertise lies in programming languages such as C and C++, complemented by a foundational understanding of Assembly language and SQL.
+
+I am studying Informatics and Telecommunications at the National and Kapodistrian University of Athens.
+
+My programming skills include C, C++, and I'm familiar with Assembly language and SQL basics.
+
+
 <!--
 **olgapasvani/olgapasvani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
