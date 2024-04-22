@@ -5,6 +5,7 @@ I am studying Informatics and Telecommunications at the National and Kapodistria
 My programming skills include C, C++, and I'm familiar with Assembly language and SQL basics.
 
 
+
 <!--
 **olgapasvani/olgapasvani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
