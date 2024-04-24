@@ -1,3 +1,5 @@
+//Stack Interface
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,9 +11,6 @@ typedef struct StackList{
 typedef struct stack{
     StackNode *ItemList;
 }Stack;
-
-//typedef struct StackList StackNode;
-//typedef struct stack Stack;
 
 void InitializeStack(Stack *);
 int Empty(Stack *);

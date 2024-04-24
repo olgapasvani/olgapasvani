@@ -1,3 +1,6 @@
+//In this program, we sort some numbers
+//that have been pushed into a stack by using another stack
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
@@ -9,15 +12,15 @@ void sortStack(Stack *inS, Stack *sortedS){
     Push(sortedS, temp); //push the first element in to the new stack
     while (!Empty(inS)) {
         Pop(inS, &temp);
-        while (!Empty(sortedS) && sortedS->ItemList->Item > temp) {/*αν η κορυφή της νεας μας στοιβας είναι μεγαλύτερη
-        του καινούριου στοιχείου που πήραμε από την σοίβα εισόδου τότε το αφαιρούμε από την καινούρια στοίβα και το επιστρέφουμε στην στοίβα εισόδου*/
+        while (!Empty(sortedS) && sortedS->ItemList->Item > temp) {/*If the top element of the new stack is bigger
+        than the input stack's new element, then we pop the top element from the new stack and push it in to the input stack*/
             int item;
             Pop(sortedS, &item);
             Push(inS, item);
         }
-        Push(sortedS, temp); /*όταν δεν υπάρχει πλέον μεγαλύτερο στοιχείο στην καινούρια στοίβα από αυτό που προσπαθούμε
-        να πρόσθεσουμε τότε το κανουμε push στην sortedS*/
-    } //επαναλαμβάνουμε μέχρι να αδειάσει η στοίβα εισόδου
+        Push(sortedS, temp); /*when there is not any other bigger element than the one we are tryng to push in the new stack
+        then we push it in the sortedS (our new stack)*/
+    } //Repeat until the input stack is empty
 }
 
 int main(){

@@ -1,3 +1,5 @@
+//Stack implementation
+
 #include "stack.h"
 
 void InitializeStack(Stack *s){
@@ -12,9 +14,9 @@ int Full(Stack *s){
     return 0;       //we assume the stack is not empty because it can grow any time as a linked structure
 }
 
-void Push(Stack *s, int newItem){ //to add a new item we must create space for it
+void Push(Stack *s, int newItem){
     StackNode *new;     //create new node
-    new = (StackNode *) malloc(sizeof(StackNode));
+    new = (StackNode *) malloc(sizeof(StackNode)); //to add a new item we must create space for it
     if(new == NULL){
         perror("system storage is exhausted\n");
     }else{
