@@ -1,5 +1,8 @@
 /*This program calculates the sum of all prime square numbers 
-that are within a range of natural numbers*/
+that are within a range of natural numbers.
+The user has to enter two numbers in the command
+line as inputs for the limits of the range of natural numbers*/
+//for example ./mirror 1 1000
 
 #include <stdio.h>
 #include <stdlib.h>
