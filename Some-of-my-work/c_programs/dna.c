@@ -25,7 +25,7 @@ int main(int argc, char **argv){
     }
     if (file2 == NULL) {
         printf("Error: cannot open file %s\n", argv[2]);
-        fclose(file1);   //closing the firs file before the program stops
+        fclose(file1);   //closing the firsτ file before the program stops
         exit(1);
     }
 
