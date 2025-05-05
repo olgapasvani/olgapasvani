@@ -1,8 +1,11 @@
 ### Hi there 👋, I am Olga Pasvani
 
-I am studying Informatics and Telecommunications at the National and Kapodistrian University of Athens.
+🎓 I'm currently studying Informatics and Telecommunications at the National and Kapodistrian University of Athens.
 
-My programming skills include C, C++, and I'm familiar with Assembly language and SQL basics.
+💻 I have experience in C, C++, and React, and I'm also familiar with Assembly language and SQL fundamentals.
+
+🚀 I'm passionate about expanding my skills in software development and exploring new technologies.
+
 
 
 
