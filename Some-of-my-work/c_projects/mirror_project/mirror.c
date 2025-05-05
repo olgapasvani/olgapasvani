@@ -111,7 +111,7 @@ long int First_Root(int low, long long int high){
         int_result = sqrt(i);
         double_result = sqrt(i);
         if (int_result == double_result)return int_result;
-        
+    
     }
     return 0;
 }
