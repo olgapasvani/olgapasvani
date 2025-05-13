@@ -2,7 +2,7 @@
 
 A simple university program management system implemented in C++, simulating the relationships between students, professors, the secretary, and courses.
 
-Main Components:
+## Main Components:
 The project includes the following classes:
 
 Person (abstract base class)
@@ -13,7 +13,7 @@ Secretary (manages students, professors, and courses)
 CS (relates to semester control via the secretary)
 structs.h (helper structs for grades and degree requirements)
 
-Person (abstract):
+### Person (abstract):
 
 Serves as the abstract base class for Student and Professor.
 Fields:
@@ -21,7 +21,7 @@ ID, Name, Surname, Age, Email, Phone, Address
 Methods:
 Virtual DisplayDetails() and SetDetails() for polymorphic behavior
 
-Student:
+### Student:
 
 A concrete implementation of Person, representing a university student.
 Fields:
@@ -32,7 +32,7 @@ RegisterToCourses(), InsertCourse(), InsertGrade()
 ShowSemesterGrades(), ShowAllGrades(), PrintAllCourses()
 Getters for year, grades, etc.
 
-Professor:
+### Professor:
 Inherits from Person, represents a university professor.
 Fields:
 TeachingCourses: List of courses the professor teaches
@@ -41,7 +41,7 @@ Functions:
 MaxGrade(), MinGrade(), AverageGrade() (student stats via Secretary)
 InsertCourse(), DeleteCourse(), Grades()
 
-Course:
+### Course:
 Represents a university course.
 Fields:
 Name, ECTS, type (core/optional), semester
@@ -51,7 +51,7 @@ InsertProfessor(), DeleteProfessor()
 Setters/Getters
 Stream interaction via overloaded >> and << operators
 
-Secretary:
+### Secretary:
 Acts as the administrative unit responsible for managing all entities.
 Fields:
 Lists of AllStudents, AllProfessors, AllCourses
@@ -60,18 +60,18 @@ Functions:
 setStudent(), setProfessor(), GetStudent(), GetProfessor()
 BeginningSemester(), EndSemester() for managing semester phases
 
-CS:
+### CS:
 A small class responsible for tracking the current semester.
 Functions:
 SetCurrentSemester() which updates the state using the Secretary
 
-structs.h
+### structs.h
 Includes:
 Student_Courses: Struct connecting a Course* to a grade
 Degree: Basic requirements of a degree (ECTS, core courses, etc.)
 
-There is also a main function that demonstrates the functionality of the basic classes.
+### There is also a main function that demonstrates the functionality of the basic classes.
 
-How to Compile and Run:
+## How to Compile and Run:
 make
 ./main
