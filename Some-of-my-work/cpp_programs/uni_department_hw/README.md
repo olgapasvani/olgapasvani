@@ -5,13 +5,13 @@ A simple university program management system implemented in C++, simulating the
 ## Main Components:
 The project includes the following classes:
 
-Person (abstract base class)
-Student (inherits from Person)
-Professor (inherits from Person)
-Course (represents a university course)
-Secretary (manages students, professors, and courses)
-CS (relates to semester control via the secretary)
-structs.h (helper structs for grades and degree requirements)
+-Person (abstract base class)
+-Student (inherits from Person)
+-Professor (inherits from Person)
+-Course (represents a university course)
+-Secretary (manages students, professors, and courses)
+-CS (relates to semester control via the secretary)
+-structs.h (helper structs for grades and degree requirements)
 
 ### Person (abstract):
 
