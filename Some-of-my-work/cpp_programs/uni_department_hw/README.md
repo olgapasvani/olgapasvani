@@ -77,7 +77,7 @@ Student_Courses: Struct connecting a Course* to a grade
 Degree: Basic requirements of a degree (ECTS, core courses, etc.)
 
 ### main
-There is also a main function that demonstrates the functionality of the basic classes.
+There is also a main function that demonstrates the functionality of some basic classes.
 
 ## How to Compile and Run:
 make
