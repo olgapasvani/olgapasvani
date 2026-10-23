@@ -15,5 +15,5 @@
 - **Core Interests:** System Programming, Full-Stack Development, Backend Architecture
 
 **📫 Let's Connect**
-- **LinkedIn:** [Click here to connect](www.linkedin.com/in/olga-pasvani-7a955b305)
+- **LinkedIn:** www.linkedin.com/in/olga-pasvani-7a955b305
 - **Email:** opasvani07@gmail.com
