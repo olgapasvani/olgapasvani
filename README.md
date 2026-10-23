@@ -12,8 +12,7 @@
 - **Systems & Low-Level:** C, C++, Assembly, VHDL
 - **Backend & Data:** Python, SQL
 - **Frontend:** React
-- **Core Interests:** System Programming, Full-Stack Development, Backend Architecture
-
+  
 **📫 Let's Connect**
 - **LinkedIn:** www.linkedin.com/in/olga-pasvani-7a955b305
 - **Email:** opasvani07@gmail.com
