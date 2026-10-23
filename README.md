@@ -11,7 +11,7 @@
 **🛠️ Tech Stack & Skills**
 - **Systems & Low-Level:** C, C++, Assembly, VHDL
 - **Backend & Data:** Python, SQL
-- **Frontend:** React
+- **Frontend:** JavaScript, React
   
 **📫 Let's Connect**
 - **LinkedIn:** www.linkedin.com/in/olga-pasvani-7a955b305
