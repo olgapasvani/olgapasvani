@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hi there, I'm Olga! 👋
 
-<!--
-**olgapasvani/olgapasvani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Final-year CS student bridging system-level programming with modern full-stack development. Adaptable, curious, and always eager to learn.**
 
-Here are some ideas to get you started:
+**👩‍💻 About Me**
+- 🎓 I am in my final year of my Computer Science degree.
+- 💼 **Actively looking for an internship or junior developer role** to apply my technical background and grow professionally.
+- 🌱 I enjoy building across the entire stack—from low-level system architecture and database queries to interactive web applications.
+- 🚀 My goal is to work in a dynamic environment, adapt to new tech stacks, and continuously expand my software engineering skills.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**🛠️ Tech Stack & Skills**
+- **Systems & Low-Level:** C, C++, Assembly, VHDL
+- **Backend & Data:** Python, SQL
+- **Frontend:** React
+- **Core Interests:** System Programming, Full-Stack Development, Backend Architecture
+
+**📫 Let's Connect**
+- **LinkedIn:** [Click here to connect](www.linkedin.com/in/olga-pasvani-7a955b305)
+- **Email:** opasvani07@gmail.com
